@@ -1,0 +1,22 @@
+/* Make the slider smaller overall */
+.rc-slider {
+  height: 10px; /* Reduce overall height */
+}
+
+/* Reduce the rail (track background) height */
+.rc-slider-rail {
+  height: 2px; /* Default is usually 4px */
+}
+
+/* Reduce the active track height */
+.rc-slider-track {
+  height: 2px;
+}
+
+/* Make the handle (thumb) smaller */
+.rc-slider-handle {
+  width: 12px;  /* Default is usually 14px */
+  height: 12px;
+  margin-top: -5px; /* Adjust positioning */
+  border-width: 2px; /* Reduce border thickness */
+}
